@@ -264,3 +264,7 @@ width: 700px;
 margin-top: 238px;
 padding-top: 30px;
 }
+
+#audio{
+  display: none;
+}
