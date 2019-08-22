@@ -163,8 +163,19 @@ class Game {
   createGifNappy(nappy) {
     const parent = nappy.parentElement;
     const img = document.createElement("img");
-    img.src = "./images/nappy-oh.gif";
+    img.src = "./images/oh.gif";
     img.classList.add("oh");
+    parent.appendChild(img);
+    window.setTimeout(() => {
+      img.remove();
+    }, 500);
+  }
+
+  createGifCoffee(coffee) {
+    const parent = coffee.parentElement;
+    const img = document.createElement("img");
+    img.src = "./images/coffee-yay.gif";
+    img.classList.add("yay");
     parent.appendChild(img);
     window.setTimeout(() => {
       img.remove();
@@ -201,6 +212,7 @@ class Game {
           console.log("toucheds");
           this.isTouched = true;
           this.setEnergyBar(10);
+          this.createGifCoffee(coffee);
           setTimeout(() => {
             this.isTouched = false;
           }, 2000);

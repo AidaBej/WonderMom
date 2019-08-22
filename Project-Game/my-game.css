@@ -1,16 +1,17 @@
-*{
+* {
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 0 auto;
 }
 
- .homepage-title{
+.homepage-title {
   display: block;
   align-content: center;
   justify-content: flex-end;
-} 
+}
 
-.hp-title1{
+.hp-title1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +20,7 @@
   font-size: 175px;
 }
 
-.hp-title2{
+.hp-title2 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -28,7 +29,7 @@
   /* margin-right: 250px; */
 }
 
-.rules{
+.rules {
   display: block;
   justify-items: center;
   align-content: flex-end;
@@ -38,11 +39,11 @@
   border-color: rgb(215, 172, 42);
   border-style: solid;
   background-color: rgba(255, 255, 255, 0.384);
-  border-radius: 20px;;
+  border-radius: 20px;
 }
 
-h3{
-  color: rgb(105,34,40);
+h3 {
+  color: rgb(105, 34, 40);
   font-size: 2rem;
   text-align: center;
   padding: 14px 40px;
@@ -52,12 +53,12 @@ h3{
   text-align: center;
 }
 
-.btn{
+.btn {
   font-size: 20px;
   width: 670px;
   padding: 14px 40px;
   background-color: black;
-  color:white;
+  color: white;
   display: block;
   justify-content: center;
   /* align-items: flex-end; */
@@ -71,8 +72,9 @@ h3{
   margin: 10px;
 }
 
-.btn:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   color: rgb(105, 34, 40);
   background-color: rgb(215, 172, 42);
@@ -81,11 +83,11 @@ html {
   font-size: 16px;
 }
 
-body{
+body {
   display: block;
   margin: 0;
   background-image: url(./images/WM-Background2.jpg);
-  background-size: cover; 
+  background-size: cover;
 }
 
 h1 {
@@ -96,10 +98,9 @@ h2 {
   font-size: 3rem;
 }
 
-
-.container{
-  display: grid; 
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+.container {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   position: relative;
   width: 700px;
@@ -113,7 +114,7 @@ h2 {
 
 .nappy {
   width: 100%;
-  background-image: url(./images/nappy.gif); 
+  background-image: url(./images/nappy.gif);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0;
@@ -129,7 +130,7 @@ h2 {
   padding: 0;
 }
 
-#mom{
+#mom {
   /* background: black; */
   width: 100%;
   z-index: 1;
@@ -138,11 +139,11 @@ h2 {
   background-repeat: no-repeat;
 }
 
-#header{
+#header {
   width: 600px;
 }
 
-h1{
+h1 {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -151,14 +152,12 @@ h1{
   position: relative;
 }
 
-h2{
+h2 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-right: 250px;
 }
-
-
 
 .bar {
   height: 40px;
@@ -183,7 +182,7 @@ h2{
 }
 
 .bar .progress.ok {
-  background: green ;
+  background: green;
 }
 
 .bar .progress.warning {
@@ -194,15 +193,15 @@ h2{
   background: red;
 }
 
-.yay{
-  background-image: url(./images/coffee-yay.gif)
-}
-
+/* .yay {
+  background-image: url(./images/coffee-yay.gif);
+} */
+/* 
 .oh{
   background-image: url(./images/nappy-oh.gif)
-}
+} */
 
-.popup{
+.popup {
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -219,20 +218,18 @@ h2{
   transition: ease-in;
 }
 
-.popup.is-active{
+.popup.is-active {
   z-index: 2;
   opacity: 1;
 }
 
-
-
-#btn-restart{
+#btn-restart {
   font-size: 20px;
   width: 150px;
   height: 50px;
   padding: 14px 40px;
   background-color: black;
-  color:white;
+  color: white;
   display: flex;
   justify-content: center;
   /* align-items: flex-end; */
@@ -247,24 +244,25 @@ h2{
   align-items: flex-start;
 }
 
-#btn-restart:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+#btn-restart:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   color: rgb(105, 34, 40);
   background-color: rgb(215, 172, 42);
 }
 
-#endGame{
-background-image: url(./images/WM-fly.gif);
-background-size: cover;
-display: flex;
-justify-content: center;
-height: 500px;
-width: 700px;
-margin-top: 238px;
-padding-top: 30px;
+#endGame {
+  background-image: url(./images/WM-fly.gif);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 700px;
+  margin-top: 238px;
+  padding-top: 30px;
 }
 
-#audio{
+#audio {
   display: none;
 }
